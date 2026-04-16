@@ -1,8 +1,3 @@
-# nextcloud-aio
-Nextcloud-aio - Nextcloud all in one - Docker compose
+# Nextcloud-AIO
 
-Iniciar con "https://IP interna:8090"
-
-
-
-
+Iniciar con "https://localhost:8090" ó IP interna+puerto
