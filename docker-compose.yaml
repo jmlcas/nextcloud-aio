@@ -12,10 +12,10 @@ services:
 #      - "80:80"
       - "8090:8080"
 #      - "8443:8443"
-#    environment:
-#      - APACHE_PORT=11000  # change this port number if 11000 is already in use on your host system.
-#      - APACHE_IP_BINDING=0.0.0.0
-#      - NEXTCLOUD_MEMORY_LIMIT=1024M
+    environment:
+      - APACHE_PORT=11000  # change this port number if 11000 is already in use on your host system.
+      - APACHE_IP_BINDING=0.0.0.0
+      - NEXTCLOUD_MEMORY_LIMIT=1024M
 
 volumes:
   nextcloud_aio_mastercontainer:
